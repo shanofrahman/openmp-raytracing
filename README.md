@@ -9,7 +9,7 @@ This is a simple ray tracing program implemented in C, utilizing the OpenMP fram
 To compile the code, use the following command:
 
 ```bash
-gcc -std=c11 -fopenmp raytrace.c -o raytrace.c.exe
+gcc -std=c11 -fopenmp main.c -o raytrace.c.exe
 ```
 
 ## Usage
