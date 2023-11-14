@@ -1,4 +1,3 @@
-/* gcc -std=c11 -fopenmp raytrace.c -o raytrace.c.exe */
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -142,8 +141,7 @@ calc_tile(int size, int xstart, int ystart,
   }
 }
 
-int 
-main(int argc, char **argv)
+int main(int argc, char **argv)
 {
   const int size = 4000;
   const int tilesize = 400;
@@ -173,7 +171,6 @@ main(int argc, char **argv)
     char *tile = (char *)malloc(tilesize * tilesize * sizeof(char));
     if (tile == NULL) {
       fprintf(stderr, "Could not allocate tile memory!\n");
-      /* TODO: is this allowed? */
       exit(1);
     }
 
