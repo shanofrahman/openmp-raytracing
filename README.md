@@ -2,8 +2,8 @@
 
 # Ray Tracing with OpenMP
 
-This is a simple ray tracing program implemented in C, utilizing the OpenMP framework for parallelization. The program generates a ray-traced image and saves it in the PNM (Portable Any Map) format.
-
+A ray tracing exampe implemented in C, utilizing the OpenMP framework for parallelization. The program generates a ray-traced image and saves it in the PNM (Portable Any Map) format.
+![result](result.png)
 ## Compilation
 
 To compile the code, use the following command:
